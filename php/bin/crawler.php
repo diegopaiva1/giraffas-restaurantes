@@ -22,8 +22,6 @@ function main()
 
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    echo "Connected successfully to " . $_ENV["DB_HOST"] . "@" . $_ENV["DB_NAME"] . PHP_EOL;
-
     // set support to utf8
     $conn->exec("SET NAMES UTF8");
 
