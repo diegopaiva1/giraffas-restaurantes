@@ -1,0 +1,27 @@
+# packages
+vendor
+node_modules
+
+# local env files
+.env
+.env.local
+.env.*.local
+
+# IDEs and editors
+.idea
+*.sln
+*.sw?
+*.suo
+*.ntvs*
+*.njsproj
+.project
+.classpath
+.vscode
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
