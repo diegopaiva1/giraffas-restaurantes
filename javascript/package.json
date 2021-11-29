@@ -1,0 +1,18 @@
+{
+  "name": "giraffas-crawler-javascript",
+  "version": "0.1.0",
+  "description": "Crawler para buscar endereços de restaurantes da empresa brasileira de fast-food \"Giraffas \"",
+  "bin": {
+    "giraffas-crawler-javascript": "crawler.js"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Diego Paiva",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "mysql2": "^2.3.3"
+  }
+}
