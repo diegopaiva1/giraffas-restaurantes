@@ -1,0 +1,14 @@
+{
+    "name": "giraffas-crawler/php",
+    "version": "0.1.0",
+    "description": "Crawler para buscar endereços de restaurantes da empresa brasileira de fast-food \"Giraffas \"",
+    "authors": [
+        {
+            "name": "Diego Paiva",
+            "email": "diego.paiva13@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
