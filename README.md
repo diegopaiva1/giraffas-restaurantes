@@ -24,7 +24,7 @@ Cada restaurante conta com os seguintes dados:
 
 ## Configuração do banco de dados
 
-Como os dados serão salvos no banco de dados local da máquina em que o *script* for executado, é necessário informar alguns parâmetros, a saber:
+Como os dados serão salvos em um banco de dados, é necessário informar alguns parâmetros, a saber:
 
 * `DB_HOST`: endereço da máquina, tipicamente `localhost`.
 * `DB_NAME`: nome do banco de dados em que será criada a tabela dentro do MySQL.
@@ -37,7 +37,7 @@ Estas configurações devem ser carregadas em um arquivo `.env` na raíz do proj
 
 ## Executando o *script* PHP
 
-Antes de executar o *script*, instale a(s) dependência(s) do projeto:
+Instale a(s) dependência(s) do projeto:
 
 ```
 cd php
